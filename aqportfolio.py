@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 path = os.path.dirname(__file__)
 
 with st.sidebar:
-    profile_photo = st.sidebar.image(path+'/image.jpg', use_column_width=True)
+    profile_photo = st.sidebar.image(path+'/CV Foto AQ.jpg', use_column_width=True)
     profile_phone = st.sidebar.subheader("Alejandra Quezada")
     profile_name = st.sidebar.markdown('''<h5
                                             style = "color:#ff4b4b;">
