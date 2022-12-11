@@ -47,6 +47,10 @@ if main_options == "About me":
                                 🪄Lorem ipsum dolor sit amet, consectetur adipiscing elit                          
                                 ''')
 elif main_options == "Python Projects":
-    projects = st.markdown("• Calculators\n\n• News Aggregator")
+    link_news = "https://equals-getnews-aq.herokuapp.com/"
+    project_two = st.write(f"[• News Aggregator]({link_news})")
+
+
+
 
 
